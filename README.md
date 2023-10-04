@@ -44,5 +44,5 @@ Here are the examples of detection outputs on both images and videos:
 
 | Resnet50                              | Mobilenetv2                                   |
 | -----------------------------------   | -----------------------------------           |
-| ![Resnet](./media/driving_resnet.mp4) | ![Mobilenet](./media/driving_mobilenet.mp4)  |
+| [Resnet](./media/driving_resnet.mp4) | [Mobilenet](./media/driving_mobilenet.mp4)  |
 
