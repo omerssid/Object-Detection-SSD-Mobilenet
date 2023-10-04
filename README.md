@@ -1,5 +1,5 @@
-# Object Detection using SSD Mobilenet and Tensorflow Object Detection API
-This repository contains code for implementing object detection using the Single Shot MultiBox Detector (SSD) algorithm with TensorFlow. SSD is a popular real-time object detection algorithm known for its speed and accuracy. This implementation is built upon TensorFlow and provides a streamlined way to perform object detection on your own datasets or pre-trained models.
+# Object Detection using SSD Mobilenet and Resnet
+This repository contains code for implementing object detection using the Single Shot MultiBox Detector (SSD) algorithm with TensorFlow. Single Shot Multibox Detector (SSD) is a popular object detection algorithm known for its speed and accuracy. There are different versions of SSD using various base architectures, including ResNet50 and MobileNet. Here's a brief overview and a comparison between SSD ResNet50 and SSD MobileNet.
 
 ## SSD MobileNet Architecture
 The SSD architecture is a single convolution network that learns to predict bounding box locations and classify these locations in one pass. Hence, SSD can be trained end-to-end. The SSD network consists of base architecture (MobileNet in this case) followed by several convolution layers
@@ -10,19 +10,35 @@ By using SSD, we only need to take one single shot to detect multiple objects wi
 
 For more details about SSD architecture and its working, please read it’s official paper [here](https://arxiv.org/pdf/1512.02325.pdf)
 
+## SSD ResNet50 Architecture
+ResNet50 is a variant of the ResNet architecture, which introduces skip connections or residual connections. These connections help in mitigating the vanishing gradient problem during training deeper networks. SSD ResNet50 often incorporates a Feature Pyramid Network, which allows the model to leverage multi-scale features for object detection.
 
+![Image][./media/resnet_arch.jpg]
+
+## Comparison
+The choice between SSD ResNet50 and SSD MobileNet often involves a trade-off between accuracy and speed. If accuracy is a top priority and computational resources are sufficient, ResNet50 might be a better choice. For real-time applications on edge devices, where speed is crucial, MobileNet can be more appropriate.
 
 ## Results
-Here are two examples of successful detection outputs on both images and videos:
+Here are the examples of detection outputs on both images and videos:
 
-![Image][1]
+| Resnet50                              | Mobilenetv2                                   |
+| -----------------------------------   | -----------------------------------           |
+| ![Resnet](./media/result_resnet_1.png)| ![Mobilenet](./media/result_mobilenet_1.png)  |
+
+### Resnet50
+
+
+![Image](./media/result_resnet_2.png)
+![Image](./media/result_resnet_3.png)
+![Image](./media/result_resnet_4.png)
 
 ![Video][2]
 
+## Mobilenet v2
 
+![Image](./media/result_mobilenet_1.png)
+![Image](./media/result_mobilenet_2.png)
+![Image](./media/result_mobilenet_3.png)
+![Image](./media/result_mobilenet_4.png)
 
-| Model  | Training data                    | mAP Train | mAP VOC12 test |  Speed  |
-|:------:|:--------------------------------:|:---------:|:--------------:|:-------:|
-| vgg300 | VOC07+12 trainval and VOC07 Test |     79.5% |    [72.3%][3]  |   104   |
-| vgg512 | VOC07+12 trainval and VOC07 Test |     82.3% |    [75.0%][5]  |   39    |
-
+![Video][2]
