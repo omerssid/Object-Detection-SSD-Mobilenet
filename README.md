@@ -25,20 +25,24 @@ Here are the examples of detection outputs on both images and videos:
 | -----------------------------------   | -----------------------------------           |
 | ![Resnet](./media/result_resnet_1.png)| ![Mobilenet](./media/result_mobilenet_1.png)  |
 
-### Resnet50
+
+| Resnet50                              | Mobilenetv2                                   |
+| -----------------------------------   | -----------------------------------           |
+| ![Resnet](./media/result_resnet_2.png)| ![Mobilenet](./media/result_mobilenet_2.png)  |
 
 
-![Image](./media/result_resnet_2.png)
-![Image](./media/result_resnet_3.png)
-![Image](./media/result_resnet_4.png)
+| Resnet50                              | Mobilenetv2                                   |
+| -----------------------------------   | -----------------------------------           |
+| ![Resnet](./media/result_resnet_3.png)| ![Mobilenet](./media/result_mobilenet_3.png)  |
 
-![Video][2]
 
-## Mobilenet v2
 
-![Image](./media/result_mobilenet_1.png)
-![Image](./media/result_mobilenet_2.png)
-![Image](./media/result_mobilenet_3.png)
-![Image](./media/result_mobilenet_4.png)
+| Resnet50                              | Mobilenetv2                                   |
+| -----------------------------------   | -----------------------------------           |
+| ![Resnet](./media/result_resnet_4.png)| ![Mobilenet](./media/result_mobilenet_4.png)  |
 
-![Video][2]
+
+| Resnet50                              | Mobilenetv2                                   |
+| -----------------------------------   | -----------------------------------           |
+| ![Resnet](./media/driving_resnet.mp4) | ![Mobilenet](./media/driving_mobilenet.mp4)  |
+
