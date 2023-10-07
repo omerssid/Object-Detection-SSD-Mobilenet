@@ -21,29 +21,29 @@ The choice between SSD ResNet50 and SSD MobileNet often involves a trade-off bet
 ## Results
 Here are the examples of detection outputs on both images and videos:
 
-| ResNet-50                              | MobileNetN2                                  |
+| ResNet-50                              | MobileNetV2                                  |
 | -----------------------------------    | -----------------------------------           |
 | ![Resnet](./media/result_resnet_1.png) | ![Mobilenet](./media/result_mobilenet_1.png)  |
 
 
-| ResNet-50                              | MobileNetN2                                  |
+| ResNet-50                              | MobileNetV2                                  |
 | -----------------------------------    | -----------------------------------           |
 | ![Resnet](./media/result_resnet_2.png) | ![Mobilenet](./media/result_mobilenet_2.png)  |
 
 
-| ResNet-50                              | MobileNetN2                                  |
+| ResNet-50                              | MobileNetV2                                  |
 | -----------------------------------    | -----------------------------------           |
 | ![Resnet](./media/result_resnet_3.png) | ![Mobilenet](./media/result_mobilenet_3.png)  |
 
 
 
-| ResNet-50                              | MobileNetN2                                  |
+| ResNet-50                              | MobileNetV2                                  |
 | -----------------------------------    | -----------------------------------           |
 | ![Resnet](./media/result_resnet_4.png) | ![Mobilenet](./media/result_mobilenet_4.png)  |
 
 ### Video Results 
 
-| ResNet-50                              | MobileNetN2                                  |
+| ResNet-50                              | MobileNetV2                                  |
 | -----------------------------------    | -----------------------------------           |
 | [Resnet](./media/driving_resnet.mp4)   | [Mobilenet](./media/driving_mobilenet.mp4)     |
 
